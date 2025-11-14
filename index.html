@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameMania</title>
+    <style>
+        html{
+            background-color: rgb(164, 164, 164);
+        }
+    </style>
+</head>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a>
+                        <img src="image/list.png" alt="imagem de menu gaveta" class="menu">
+                    </a>
+
+                    <a href="">
+                        <img src="image/logo.png" alt="logo Game Mania" class="logo">
+                    </a>
+
+                    <img src="image/search.png" alt="imagem pesquisa de lupa" class="lupa">
+                    <input type="text" placeholder="Pesquise seu produto" class="barra-pesquisa">
+                    
+                    <a href="">
+                        <img src="image/grocery-store.png" alt="imagem carrinho" class="carrinho">
+                    </a>
+                    <a href="">
+                        <img src="image/user.png" alt="imagem perfil do usuario" class="perfil">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+<body>
+    <img src="image/banner.jpg" alt="banner" class="banner">
+
+    
+    <div class="sessoes">
+
+        <button class="botao_lateral">&lt;</button>
+
+        <div class="Itens">
+            <a href="" class="categoria">
+                <img id="imagem_categoria" src="image/processadores.webp" alt="">
+                <span>PROCESSADORES</span>
+            </a>
+        </div>
+        <div class="Itens">
+            <a href="" class="categoria">
+                <img id="imagem_categoria" src="image/gabinete.jpg" alt="">
+                <span>GABINETES</span>
+            </a>
+        </div>
+        <div class="Itens">
+            <a href="" class="categoria">
+                <img id="imagem_categoria" src="image/monitor.jpg" alt="">
+                <span>MONITORES</span>
+            </a>
+        </div>
+        <div class="Itens">
+            <a href="" class="categoria">
+                <img id="imagem_categoria" src="image/placa-mãe.webp" alt="">
+                <span>PLACAS-MÃES</span>
+            </a>
+        </div>
+        <div class="Itens">
+            <a href="" class="categoria">
+                <img style="float: none;" id="imagem_categoria" src="image/cadeiras.webp" alt="">
+                <span>CADEIRAS</span>
+            </a>
+        </div>
+
+        <button class="botao_lateral">&gt;</button>
+    </div>
+    <div class="coluna-produtos">
+        <div class="secao-produtos">
+            <div class="topo_produtos">
+                <span>PRODUTOS EM DESTAQUES</span>
+                <span>VER MAIS --></span>
+            </div>
+
+            <div class="area-produtos">
+                <button class="botao-produtos botao-anterior">&lt;</button>
+
+                <div class="lista-produtos">
+                    <div class="produto-card">
+                        <div class="produto-imagem">
+                            <img src="image/iphone17_produto.webp" alt="iPhone 17 Pro">
+                        </div>
+                        <div class="produto-info">
+                            <h3 class="produto-titulo">iPhone 17 Pro Apple 256GB, Cámara Tripla Fusion de 48MP...</h3>
+                            <div class="produto-precos">
+                                <span class="preco-antigo">R$ 12.776,67</span>
+                                <span class="preco-atual">R$ 10.349,10</span>
+                            </div>
+                            <button class="botao-comprar">COMPRAR</button>
+                        </div>
+                    </div>
+
+                    <div class="produto-card">
+                        <div class="produto-imagem">
+                            <img src="image/headset_produto.jpg" alt="Headset Gamer">
+                        </div>
+                        <div class="produto-info">
+                            <h3 class="produto-titulo">Headset Gamer Sem Fio Logitech G PRO X Wireless LIGHTSPEED...</h3>
+                            <div class="produto-precos">
+                                <span class="preco-antigo">R$ 934,87</span>
+                                <span class="preco-atual">R$ 852,26</span>
+                            </div>
+                            <button class="botao-comprar">COMPRAR</button>
+                        </div>
+                    </div>
+
+                    <div class="produto-card">
+                        <div class="produto-imagem">
+                            <img src="image/notebook_produto.webp" alt="Notebook Lenovo">
+                        </div>
+                        <div class="produto-info">
+                            <h3 class="produto-titulo">Notebook Lenovo LOQ-E Core i5-12450HX, RTX 3050, 16GB...</h3>
+                            <div class="produto-precos">
+                                <span class="preco-antigo">R$ 6.758,58</span>
+                                <span class="preco-atual">R$ 4.399,00</span>
+                            </div>
+                            <button class="botao-comprar">COMPRAR</button>
+                        </div>
+                    </div>
+
+                    <div class="produto-card">
+                        <div class="produto-imagem">
+                            <img src="image/fone_bluetooh_produto.webp" alt="Fone Bluetooth">
+                        </div>
+                        <div class="produto-info">
+                            <h3 class="produto-titulo">Fone Ouvido Bluetooth Tx50 Clip De Orelha Visor Digital...</h3>
+                            <div class="produto-precos">
+                                <span class="preco-antigo">R$ 199,90</span>
+                                <span class="preco-atual">R$ 149,90</span>
+                            </div>
+                            <button class="botao-comprar">COMPRAR</button>
+                        </div>
+                    </div>
+
+                    <div class="produto-card">
+                        <div class="produto-imagem">
+                            <img src="image/ps5_produto.webp" alt="PlayStation 5">
+                        </div>
+                        <div class="produto-info">
+                            <h3 class="produto-titulo">Console Sony PlayStation 5, Edição Digital, SSD 825GB...</h3>
+                            <div class="produto-precos">
+                                <span class="preco-antigo">R$ 4.999,00</span>
+                                <span class="preco-atual">R$ 3.626,07</span>
+                            </div>
+                            <button class="botao-comprar">COMPRAR</button>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="botao-produtos botao-proximo">&gt;</button>
+            </div>
+        </div>
+
+        <div class="secao-produtos">
+            <div class="topo_produtos_secundarios">
+                <span>MAIS PROCURADOS</span>
+                <span>VER MAIS --></span>
+            </div>
+
+            <div class="area-produtos">
+                <button class="botao-produtos botao-anterior">&lt;</button>
+
+                <div class="lista-produtos">
+                    <div class="produto-card">
+                        <div class="produto-imagem">
+                            <img src="image/fonte_produto.webp" alt="Fonte MSI">
+                        </div>
+                        <div class="produto-info">
+                            <h3 class="produto-titulo">Fonte MSI MAG A650BN, 650W, 80 Plus Bronze, PFC Ativo...</h3>
+                            <div class="produto-precos">
+                                <span class="preco-antigo">R$ 429,90</span>
+                                <span class="preco-atual">R$ 376,46</span>
+                            </div>
+                            <button class="botao-comprar">COMPRAR</button>
+                        </div>
+                    </div>
+
+                    <div class="produto-card">
+                        <div class="produto-imagem">
+                            <img src="image/memoria_produto.webp" alt="Memória RAM">
+                        </div>
+                        <div class="produto-info">
+                            <h3 class="produto-titulo">Memória RAM XPG Gammix, 16GB, 3200MHz, DDR4...</h3>
+                            <div class="produto-precos">
+                                <span class="preco-antigo">R$ 359,90</span>
+                                <span class="preco-atual">R$ 315,68</span>
+                            </div>
+                            <button class="botao-comprar">COMPRAR</button>
+                        </div>
+                    </div>
+
+                    <div class="produto-card">
+                        <div class="produto-imagem">
+                            <img src="image/placa_mae_produto.jpg" alt="Placa-Mãe MSI">
+                        </div>
+                        <div class="produto-info">
+                            <h3 class="produto-titulo">Placa-Mãe MSI A520M-A PRO, AMD AM4, mATX, DDR4...</h3>
+                            <div class="produto-precos">
+                                <span class="preco-antigo">R$ 599,00</span>
+                                <span class="preco-atual">R$ 499,99</span>
+                            </div>
+                            <button class="botao-comprar">COMPRAR</button>
+                        </div>
+                    </div>
+
+                    <div class="produto-card">
+                        <div class="produto-imagem">
+                            <img src="image/processador_produto.webp" alt="Processador AMD">
+                        </div>
+                        <div class="produto-info">
+                            <h3 class="produto-titulo">Processador AMD Ryzen 5 5600G, 6-Core, 4.4GHz Max...</h3>
+                            <div class="produto-precos">
+                                <span class="preco-antigo">R$ 1.399,00</span>
+                                <span class="preco-atual">R$ 1.222,21</span>
+                            </div>
+                            <button class="botao-comprar">COMPRAR</button>
+                        </div>
+                    </div>
+
+                    <div class="produto-card">
+                        <div class="produto-imagem">
+                            <img src="image/placa_video_produto.webp" alt="Placa de Video">
+                        </div>
+                        <div class="produto-info">
+                            <h3 class="produto-titulo">Placa de Video XFX AMD Radeon RX 7400 Gaming 8GB...</h3>
+                            <div class="produto-precos">
+                                <span class="preco-antigo">R$ 2.599,00</span>
+                                <span class="preco-atual">R$ 2.352,95</span>
+                            </div>
+                            <button class="botao-comprar">COMPRAR</button>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="botao-produtos botao-proximo">&gt;</button>
+            </div>
+        </div>
+
+        <div class="secao-produtos">
+            <div class="topo_produtos_secundarios">
+                <span>MAIS VENDIDOS</span>
+                <span>VER MAIS --></span>
+            </div>
+
+            <div class="area-produtos">
+                <button class="botao-produtos botao-anterior">&lt;</button>
+
+                <div class="lista-produtos">
+                    <div class="produto-card">
+                        <div class="produto-imagem">
+                            <img src="image/memoria2_produto.jpg" alt="Memória RAM HP">
+                        </div>
+                        <div class="produto-info">
+                            <h3 class="produto-titulo">Memória RAM HP V6, 16GB, 3200MHz, DDR4, Preto...</h3>
+                            <div class="produto-precos">
+                                <span class="preco-antigo">R$ 329,90</span>
+                                <span class="preco-atual">R$ 273,99</span>
+                            </div>
+                            <button class="botao-comprar">COMPRAR</button>
+                        </div>
+                    </div>
+
+                    <div class="produto-card">
+                        <div class="produto-imagem">
+                            <img src="image/sdd_produto.webp" alt="SSD Kingston">
+                        </div>
+                        <div class="produto-info">
+                            <h3 class="produto-titulo">SSD Kingston NV2, 1TB, M.2 2280 PCIe 4.0, Leitura 3500MB/s...</h3>
+                            <div class="produto-precos">
+                                <span class="preco-antigo">R$ 499,90</span>
+                                <span class="preco-atual">R$ 446,66</span>
+                            </div>
+                            <button class="botao-comprar">COMPRAR</button>
+                        </div>
+                    </div>
+
+                    <div class="produto-card">
+                        <div class="produto-imagem">
+                            <img src="image/monitor_produto.webp" alt="Monitor Gamer">
+                        </div>
+                        <div class="produto-info">
+                            <h3 class="produto-titulo">Monitor Gamer AOC 27" Full HD, IPS, 144Hz, 1ms, HDMI/DisplayPort...</h3>
+                            <div class="produto-precos">
+                                <span class="preco-antigo">R$ 1.599,00</span>
+                                <span class="preco-atual">R$ 1.369,99</span>
+                            </div>
+                            <button class="botao-comprar">COMPRAR</button>
+                        </div>
+                    </div>
+
+                    <div class="produto-card">
+                        <div class="produto-imagem">
+                            <img src="image/teclado_produto.webp" alt="Teclado Gamer">
+                        </div>
+                        <div class="produto-info">
+                            <h3 class="produto-titulo">Teclado Gamer Redragon Kumara, RGB, Switch Outemu Blue...</h3>
+                            <div class="produto-precos">
+                                <span class="preco-antigo">R$ 299,90</span>
+                                <span class="preco-atual">R$ 247,03</span>
+                            </div>
+                            <button class="botao-comprar">COMPRAR</button>
+                        </div>
+                    </div>
+
+                    <div class="produto-card">
+                        <div class="produto-imagem">
+                            <img src="image/mouse_produto.webp" alt="Mouse Gamer">
+                        </div>
+                        <div class="produto-info">
+                            <h3 class="produto-titulo">Mouse Gamer HyperX Pulsefire Core RGB 6200 DPI - 7 Botões</h3>
+                            <div class="produto-precos">
+                                <span class="preco-antigo">R$ 199,90</span>
+                                <span class="preco-atual">R$ 135,75</span>
+                            </div>
+                            <button class="botao-comprar">COMPRAR</button>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="botao-produtos botao-proximo">&gt;</button>
+            </div>
+        </div>
+
+    <div class="secao-produtos">
+        <div class="topo_produtos_secundarios">
+            <span>EM PROMOÇÃO</span>
+            <span>VER MAIS --></span>
+        </div>
+
+        <div class="area-produtos">
+            <button class="botao-produtos botao-anterior">&lt;</button>
+
+            <div class="lista-produtos">
+                <div class="produto-card">
+                    <div class="produto-imagem">
+                        <img src="image/controle_ps5.jpg" alt="Controle PS5">
+                    </div>
+                    <div class="produto-info">
+                        <h3 class="produto-titulo">Controle Sony DualSense PS5, Sem Fio, Midnight Black - 3006452</h3>
+                        <div class="produto-precos">
+                            <span class="preco-antigo">R$ 499,90</span>
+                            <span class="preco-atual">R$ 381,29</span>
+                        </div>
+                        <button class="botao-comprar">COMPRAR</button>
+                    </div>
+                </div>
+
+                <div class="produto-card">
+                    <div class="produto-imagem">
+                        <img src="image/monitor2_produto.webp" alt="Monitor LG">
+                    </div>
+                    <div class="produto-info">
+                        <h3 class="produto-titulo">Monitor Gamer LG Ultragear 27" FHD, 144Hz, 1ms, IPS, DP e HDMI...</h3>
+                        <div class="produto-precos">
+                            <span class="preco-antigo">R$ 1.299,00</span>
+                            <span class="preco-atual">R$ 899,99</span>
+                        </div>
+                        <button class="botao-comprar">COMPRAR</button>
+                    </div>
+                </div>
+
+                <div class="produto-card">
+                    <div class="produto-imagem">
+                        <img src="image/mouse2_produto.webp" alt="Mouse Logitech">
+                    </div>
+                    <div class="produto-info">
+                        <h3 class="produto-titulo">Mouse Gamer Sem Fio Logitech G305 LIGHTSPEED, 12000 DPI...</h3>
+                        <div class="produto-precos">
+                            <span class="preco-antigo">R$ 299,90</span>
+                            <span class="preco-atual">R$ 209,99</span>
+                        </div>
+                        <button class="botao-comprar">COMPRAR</button>
+                    </div>
+                </div>
+
+                <div class="produto-card">
+                    <div class="produto-imagem">
+                        <img src="image/headset2_produto.webp" alt="Headset Havit">
+                    </div>
+                    <div class="produto-info">
+                        <h3 class="produto-titulo">Headset Gamer Havit, Drivers 53mm, Microfone P2, Preto/Rosa</h3>
+                        <div class="produto-precos">
+                            <span class="preco-antigo">R$ 199,90</span>
+                            <span class="preco-atual">R$ 178,90</span>
+                        </div>
+                        <button class="botao-comprar">COMPRAR</button>
+                    </div>
+                </div>
+
+                <div class="produto-card">
+                    <div class="produto-imagem">
+                        <img src="image/headset3_produto.webp" alt="Headset Philips">
+                    </div>
+                    <div class="produto-info">
+                        <h3 class="produto-titulo">Headset Gamer Philips TAH4205, Surround 7.1, USB, Preto</h3>
+                        <div class="produto-precos">
+                            <span class="preco-antigo">R$ 229,90</span>
+                            <span class="preco-atual">R$ 169,99</span>
+                        </div>
+                        <button class="botao-comprar">COMPRAR</button>
+                    </div>
+                </div>
+            </div>
+
+            <button class="botao-produtos botao-proximo">&gt;</button>
+        </div>
+    </div>
+</div>
+</div>
+
+<footer>
+    <div class="footer-container">
+        <img class="imagem-footer" src="image/logo2.png" alt="">
+        <div class="footer-secao">
+            <h3 class="footer-titulo">Links institucionais:</h3>
+            <ul class="footer-itens">
+                <li>• Sobre nós</a></li>
+                <li>• Contato</a></li>
+                <li>• Política de Privacidade</a></li>
+                <li>• Termos de uso</li>
+                <li>• Trocas e devoluções</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-secao">
+            <h3 class="footer-titulo">Atendimento ao cliente:</h3>
+            <div class="footer-contato">
+                <div class="contato-item">
+                    • Telefone: (11) 99999-9999
+                </div>
+                <div class="contato-item">
+                    • Email: atendimento@gamemania.com
+                </div>
+                <div class="contato-item">
+                    • WhatsApp: (11) 98888-8888
+                </div>
+                <div class="contato-item">
+                    • Horário de atendimento:Seg a Sex, 9h às 18h
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

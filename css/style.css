@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: rgb(0, 0, 196);
+}
+nav{
+    background-color: rgb(53, 53, 255);
+    height: 60px;
+}
+li{
+    display: flex;
+    float: left;
+}
+.menu{
+    height: 40px;
+    margin: 10px 60px 0px 40px;
+    
+}
+.logo{
+    height: 50px;
+    width: 140px;
+    margin-top: 6px;
+}
+.lupa{
+    height: 30px;
+    margin: 15px 0px 0px 70px;
+}
+.barra-pesquisa{
+    height: 35px;
+    margin: 10px;
+    padding-left: 5px;
+    width: 800px;
+    font-size: 17px;
+    border-radius: 10px;
+    border: none;
+}
+.carrinho{
+    height: 40px;
+    margin: 10px 0px 0px 540px;
+}
+.perfil{
+    height: 40px;
+    margin: 10px 30px;
+}
+.banner{
+    width: 100%;
+    height: 300px;
+    margin-top: -35px;
+}
+.sessoes {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 70px; 
+    flex-wrap: wrap;
+    padding: 20px 0; 
+    width: 100%;
+}
+
+.Itens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#imagem_categoria {
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.categoria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+.categoria span {
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.botao_lateral{
+    background-color: rgb(0, 0, 196);
+    height: 160px;
+    font-size: 90px;
+    border: none;
+    color: white;
+    margin: 0px 5px 0px 5px;
+}
+.coluna-produtos {
+    width: 90%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 30px 30px 0 0;
+}
+
+.topo_produtos{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    border-radius: 30px 30px 0 0;
+}
+
+.topo_produtos_secundarios{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    font-size: 25px;
+    color: red;
+    font-weight: bold;
+}
+
+.area-produtos {
+    position: relative;
+    padding: 30px 60px;
+}
+
+.lista-produtos {
+    display: flex;
+    gap: 25px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+.produto-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 20px;
+    width: 250px;
+}
+
+.produto-imagem img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.produto-titulo {
+    height: 45px;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.produto-precos {
+    margin-bottom: 15px;
+}
+
+.preco-antigo {
+    display: block;
+    font-size: 14px;
+    color: #999;
+    text-decoration: line-through;
+    margin-bottom: 2px;
+}
+
+.preco-atual {
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+}
+
+.botao-comprar {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.botao-comprar:hover {
+    background-color: #cc0000;
+}
+.botao-produtos {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+.botao-anterior {
+    left: 10px;
+}
+
+.botao-proximo {
+    right: 10px;
+}
+footer{
+    width: 100%;
+    background-color: rgb(53, 53, 255);
+    color: white;
+}
+.footer-container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    padding: 0 20px;
+}
+.imagem-footer{
+    border: solid 1px;
+}
+.footer-titulo {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin: 40px 0px 30px 0px;
+}
+.footer-itens {
+    color: white;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.footer-itens, li{
+    margin-bottom: 30px;
+}
+.footer-contato {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.contato-item {
+    font-size: 30px;
+}

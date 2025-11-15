@@ -1,36 +1,44 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
 body{
     background-color: rgb(0, 0, 196);
+    font-family: Arial, sans-serif;
 }
+
 header {
-  margin-top: -19px;
-  position: relative;
+    position: relative;
 }
+
 nav{
     background-color: rgb(53, 53, 255);
     height: 60px;
 }
+
 li{
     display: flex;
     float: left;
 }
+
 .menu{
     height: 40px;
     margin: 10px 60px 0px 40px;
-    
 }
+
 .logo{
     height: 50px;
     width: 140px;
     margin-top: 6px;
 }
+
 .lupa{
     height: 30px;
     margin: 15px 0px 0px 70px;
 }
+
 .barra-pesquisa{
     height: 35px;
     margin: 10px;
@@ -40,97 +48,45 @@ li{
     border-radius: 10px;
     border: none;
 }
+
 .carrinho{
     height: 40px;
     margin: 10px 0px 0px 540px;
 }
+
 .perfil{
     height: 40px;
     margin: 10px 30px;
 }
-#banner{
-    width: 100%;
-    height: 500px;
-}
-#container-banner{
-    margin-top: -100px;
-}
-.Itens {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    float: left;
-    margin:30px 0px 20px 60px;
-}
 
-#imagem_categoria {
-    width: 250px;
-    height: 250px;
+.geral{
+    width: 98%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 50px;
     background-color: white;
-    border-radius: 50%;
-}
-
-.categoria {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-    text-decoration: none;
-}
-
-.categoria span {
-    margin-top: 10px;
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-}
-.coluna-produtos {
-    width: 90%;
-    margin: 0 auto;
-    background-color: white;
-    border-radius: 30px 30px 0 0;
-}
-
-.topo_produtos{
-    background-color: red;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 20px 30px;
-    font-size: 25px;
-    color: white;
-    font-weight: bold;
-    border-radius: 30px 30px 0 0;
+    min-height: 850px;
+    flex: 1;
 }
 
-.topo_produtos_secundarios{
+.container-produtos{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 30px;
-    font-size: 25px;
-    color: red;
-    font-weight: bold;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex: 1;
 }
 
-.area-produtos {
-    position: relative;
-    padding: 30px 60px;
-}
-
-.lista-produtos {
-    display: flex;
-    gap: 25px;
-    padding: 10px 0;
-    display: flex;
-    justify-content: center;
-}
 .produto-card {
     background-color: white;
     border: 2px solid #ddd;
     border-radius: 15px;
     padding: 20px;
-    width: 250px;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    max-height: 410px;
 }
 
 .produto-imagem img {
@@ -144,6 +100,7 @@ li{
     font-size: 16px;
     color: #333;
     margin-bottom: 15px;
+    overflow: hidden;
 }
 
 .produto-precos {
@@ -174,30 +131,18 @@ li{
     font-size: 16px;
     font-weight: bold;
     width: 100%;
+    cursor: pointer;
+    margin-top: auto;
 }
 
 .botao-comprar:hover {
     background-color: #cc0000;
 }
-.botao-produtos {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: white;
-    border: 2px solid black;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    font-size: 24px;
-    font-weight: bold;
-    color: black;
-}
-.botao-anterior {
-    left: 10px;
-}
 
-.botao-proximo {
-    right: 10px;
+.preco-total{
+    width: 700px;
+    margin-left: 20px;
+    max-height: 400px; 
 }
 footer{
     width: 100%;
@@ -210,7 +155,7 @@ footer{
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 40px;
     padding: 0 20px;
-    height: 430px;
+    height: 400px;
 }
 
 .imagem-footer{
